@@ -13,6 +13,6 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^12.4.1",
-    "dbd.js": "^0.5.0"
+    "dbd.js": "^0.5.1"
   }
 }

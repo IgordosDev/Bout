@@ -1,4 +1,4 @@
-  const dbd = require("dbd.js")
+const dbd = require("dbd.js")
  
 const bot = new dbd.Bot({
 token: process.env.BOT_TOKEN, 

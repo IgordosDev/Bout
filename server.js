@@ -24,8 +24,7 @@ code: command.code
 }
 bot.variables({
     Owners: "493053965865320469"
-  })
-console.log(`Bot became ready.`);
+  });
 bot.status({
   text: "посылании нахуй",
   type: "COMPETING",

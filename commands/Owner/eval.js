@@ -3,7 +3,7 @@ module.exports = ({
     code: `
     $author[DBD.js Evaluate]
 $onlyForIDs[$getVar[Owners];Это только для разрабов]
-$title[Успешно. **$ping** ms.
+$title[Успешно. **$ping** ms.]
 $description[$eval[$message]]
 $footer[Вызвано $username]`
     });

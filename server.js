@@ -1,7 +1,7 @@
 const dbd = require("dbd.js")
  
 const bot = new dbd.Bot({
-token: process.env.BOT_TOKEN, 
+token: "NzY4ODE2MTA2NDMyNjI2NzA4.X5F9yw.ZzRRb9k0aytBh38hRegGBYcvjAQ", 
 prefix: "bout!" 
 })
  
@@ -22,5 +22,8 @@ code: command.code
 })
 } 
 }
+bot.variables({
+    Owners: "493053965865320469"
+  })
 console.log(`Bot became ready. Logged in as ${Bot.user.tag}.`);
 		Bot.user.setActivity('посылании нахер', { type: 'COMPETING' });

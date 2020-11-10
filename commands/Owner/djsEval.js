@@ -3,7 +3,7 @@ module.exports = ({
     code: `
     $author[discord.js Evaluate]
 $onlyForIDs[$getVar[Owners];Это только для разрабов]
-$title[Успешно. **$ping** ms.
+$title[Успешно. **$ping** ms.]
 $description[$djsEval]
 $footer[Вызвано $username]`
     });

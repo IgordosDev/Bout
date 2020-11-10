@@ -25,5 +25,9 @@ code: command.code
 bot.variables({
     Owners: "493053965865320469"
   })
-console.log(`Bot became ready. Logged in as ${Bot.user.tag}.`);
-		Bot.user.setActivity('посылании нахер', { type: 'COMPETING' });
+console.log(`Bot became ready.`);
+bot.status({
+  text: "посылании нахуй",
+  type: "COMPETING",
+  time: 12
+})

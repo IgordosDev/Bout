@@ -1,9 +1,10 @@
-const dbd = require("dbd.js")
+  const dbd = require("dbd.js")
  
 const bot = new dbd.Bot({
 token: process.env.BOT_TOKEN, 
-prefix: "bout!"
+prefix: "bout!" 
 })
+ 
 bot.onMessage()
  
 const fs = require('fs')
@@ -19,13 +20,8 @@ bot.command({
 name: command.name,
 code: command.code
 })
-
-global.discord = require("discord.js");
-global.fs = require("fs");
-
-global.Bot = new discord.Client();
-
-Bot.login(process.env.BOT_TOKEN);
+} 
+}
 console.log(`Bot became ready. Logged in as ${Bot.user.tag}.`);
 		Bot.user.setActivity('посылании нахер', { type: 'COMPETING' });
 	}

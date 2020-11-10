@@ -5,5 +5,6 @@ module.exports = ({
 $description[бот придуман [Робертом каким-то там](https://vk.com/) и реализован $username#$discriminator.]
 $addField[тут типа инфа обо мне;ОС — linux
 Задержка — $ping
-Сколько часов я не сплю — $uptime`
+Сколько часов я не сплю — $uptime
+Сколько оперативы занято - $ram]`
     });

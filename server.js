@@ -1,5 +1,3 @@
-require("dotenv").config();
-
 const dbd = require("dbd.js")
  
 const bot = new dbd.Bot({

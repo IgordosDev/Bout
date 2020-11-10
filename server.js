@@ -28,3 +28,7 @@ global.fs = require("fs");
 global.Bot = new discord.Client();
 
 Bot.login(process.env.BOT_TOKEN);
+console.log(`Bot became ready. Logged in as ${Bot.user.tag}.`);
+		Bot.user.setActivity('посылании нахер', { type: 'COMPETING' });
+	}
+}

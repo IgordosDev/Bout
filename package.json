@@ -1,5 +1,5 @@
 {
-  "name": "-asdf",
+  "name": "Bout",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.4.1"
+    "discord.js": "^12.4.1",
     "dbd.js": "^0.5.0"
   }
 }

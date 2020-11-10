@@ -24,5 +24,4 @@ code: command.code
 }
 console.log(`Bot became ready. Logged in as ${Bot.user.tag}.`);
 		Bot.user.setActivity('посылании нахер', { type: 'COMPETING' });
-	}
 }

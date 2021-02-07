@@ -1,7 +1,7 @@
 const dbd = require("dbd.js")
  
 const bot = new dbd.Bot({
-token: "NzY4ODE2MTA2NDMyNjI2NzA4.X5F9yw.ZzRRb9k0aytBh38hRegGBYcvjAQ", 
+token: "TOKEN", 
 prefix: "bout!" 
 })
  
@@ -23,10 +23,15 @@ code: command.code
 } 
 }
 bot.variables({
-    Owners: "493053965865320469"
+    Owner: "Your ID"
   });
 bot.status({
-  text: "посылании нахуй",
+  text: "посылании нахер",
   type: "COMPETING",
   time: 12
+})
+bot.status({
+  text: "bout!info",
+  type: "PLAYING",
+  time: 5
 })

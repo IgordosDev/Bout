@@ -1,7 +1,7 @@
 {
   "name": "bout",
   "version": "1.0.0",
-  "description": "",
+  "description": "бот, который посылает других ботов.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -12,6 +12,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dbd.js": "^0.5.1"
+    "dbd.js": "^1.2.0"
   }
 }

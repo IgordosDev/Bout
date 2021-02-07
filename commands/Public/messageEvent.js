@@ -1,7 +1,6 @@
 module.exports = ({
     name: "$alwaysExecute",
-    code: `
+    code: `$reply[$messageID;<@$authorID>, $randomText[пошёл нахер;иди нахер;завались].;yes]
 $onlyIf[$isBot[$authorID]==true;]
-$onlyIf[$authorID!=$clientID;]
-<@$authorID>, $randomText[пошёл нахер;иди нахер;завались].`
+$onlyIf[$authorID!=$clientID;]`
     });

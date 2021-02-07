@@ -35,3 +35,7 @@ bot.status({
   type: "PLAYING",
   time: 5
 })
+bot.readyCommand({
+channel: "Любой канал для уведомления, если аватар не поменялся",
+code: `$setBotAvatar[https://thispersondoesnotexist.com/image]`
+})

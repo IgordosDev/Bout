@@ -5,7 +5,6 @@ module.exports = ({
 $description[бот придуман [Робертом Растроповым\\](https://vk.com/tailt99) и реализован $userTag[694849711437250581].]
 $addField[техническая инфа;Задержка — $botPing(websocket — $ping)
 Аптайм — $uptime
-RAM — $ram/$maxRam
 CPU — $cpu;yes]
 $addField[инфа о боте;всего серверов — $serverCount
 всего людей — $allMembersCount
